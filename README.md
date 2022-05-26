@@ -33,6 +33,8 @@ Strikethrough uses two tildes. ~~Scratch this.
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
  Unordered list can use asterisks
+ 
+
  Or minuses
  Or pluses
 [I'm an inline-style link](https://www.google.com)
@@ -72,3 +74,12 @@ Some text to show that the reference links can follow later.
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
